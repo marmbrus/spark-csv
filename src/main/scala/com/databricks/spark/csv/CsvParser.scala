@@ -17,6 +17,8 @@ package com.databricks.spark.csv
 
 import org.apache.spark.sql.{SQLContext, DataFrame}
 import org.apache.spark.sql.types.StructType
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.sql.DataFrame
 
 /**
  * A collection of static functions for working with CSV files in Spark SQL
